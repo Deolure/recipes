@@ -40,7 +40,7 @@
                 "values": [
                   {
                     "type": "text",
-                    "text": "abibaboba",
+                    "text": "abibabobaЯЯЯЯ",
                     "parsing": "legacy"
                   }
                 ]
@@ -53,4 +53,5 @@
   ]
 
 }
+
 
