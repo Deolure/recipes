@@ -1,0 +1,54 @@
+{
+  "handlers": [
+    {
+      "type": "event",
+      "event": "player_join",
+      "position": -2,
+      "operations": [
+        {
+          "action": "player_send_message",
+          "values": [
+            {
+              "name": "messages",
+              "value": {
+                "type": "array",
+                "values": [
+                  {
+                    "type": "text",
+                    "text": "123123",
+                    "parsing": "legacy"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "event",
+      "event": "player_quit",
+      "position": -1,
+      "operations": [
+        {
+          "action": "player_send_message",
+          "values": [
+            {
+              "name": "messages",
+              "value": {
+                "type": "array",
+                "values": [
+                  {
+                    "type": "text",
+                    "text": "abibaboba",
+                    "parsing": "legacy"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
