@@ -3,7 +3,7 @@
     {
       "type": "event",
       "event": "player_join",
-      "position": -1,
+      "position": 9999,
       "operations": [
         {
           "action": "player_send_message",
@@ -28,7 +28,7 @@
     {
       "type": "event",
       "event": "player_quit",
-      "position": 0,
+      "position": 10000,
       "operations": [
         {
           "action": "player_send_message",
@@ -53,3 +53,4 @@
   ]
 
 }
+
